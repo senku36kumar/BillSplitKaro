@@ -55,5 +55,3 @@ C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;233.33
 Calculate Transactions: Pick the largest elements from the debtors and creditors list. Ex: If debtors = {4,3} and creditors={2,7}, pick 4 as the largest debtor and 7 as the largest creditor.Now, do a transaction between them. The debtor with a balance of 4 receives $4 from the creditor with a balance of 7 and hence, the debtor is eliminated from further transactions. Repeat the same steps until and unless there are no creditors and debtors.
 
 Optimisation: This algorithm produces correct results but the no of transactions is not minimum. To minimize it, we could use the subset sum algorithm which is a NP problem. The use of a NP solution could really slow down the app!
-
-Thank You.
