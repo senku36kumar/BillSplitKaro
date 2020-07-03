@@ -1,21 +1,9 @@
-# Split It Easy
-Going on a road trip?.  Worried about all the maths you gotta do to find out "who owes whom and how much" after the trip?. Well, worry not!. Add all your expenses to this app and let it do the calculations for you.
-
-# Download: 
-https://github.com/nishant-boro/split-it-easy-android/releases/download/v1.0/splitItEasy.apk
-
-### Also, available on, f-Droid: 
-https://f-droid.org/en/packages/com.nishantboro.splititeasy/ 
-### XDA Labs: 
-https://labs.xda-developers.com/store/app/com.nishantboro.splititeasy 
-### Amazon App Store: 
-https://www.amazon.com/dp/B08273SN5W/ref=sr_1_1?_encoding=UTF8&qid=1575320141&refinements=p_4%3ANishant+Boro&s=mobile-apps&sr=1-1
+# BILL SPLIT KARO
+Going on a trip with friends? Worried about all the maths you have to do find out "who owes whom and how much" after the trip?. Well, worry not!. Add all your expenses to this app and let it do the calculations for you.
 
 ## Features:
 - Offline app
-- No user login and registration required
 - Uses a O(n) algorithm to settle debts
-- Built in Java for Android Platform
 
 ## Android concepts used:
 - Recycler views
@@ -24,19 +12,9 @@ https://www.amazon.com/dp/B08273SN5W/ref=sr_1_1?_encoding=UTF8&qid=1575320141&re
 - Room Persistence, LiveData, View-Model
 - Different types of layouts
 
-## App structure:
-<img src="https://github.com/nishant-boro/split-it-easy-android/blob/master/screenshots/Screenshot_1.png" width="200"> <img src="https://github.com/nishant-boro/split-it-easy-android/blob/master/screenshots/Screenshot_2.png" width="200"> <img src="https://github.com/nishant-boro/split-it-easy-android/blob/master/screenshots/Screenshot_3.png" width="200">
-
-<img src="https://github.com/nishant-boro/split-it-easy-android/blob/master/screenshots/Screenshot_4.png" width="200"> <img src="https://github.com/nishant-boro/split-it-easy-android/blob/master/screenshots/Screenshot_5.png" width="200"> <img src="https://github.com/nishant-boro/split-it-easy-android/blob/master/screenshots/Screenshot_6.png" width="200">
-
-<img src="https://github.com/nishant-boro/split-it-easy-android/blob/master/screenshots/Screenshot_7.png" width="200"> <img src="https://github.com/nishant-boro/split-it-easy-android/blob/master/screenshots/Screenshot_8.png" width="200">
-
-## How to use it?
-![](split_it_easy.gif)
-
 ## Database Design:
 We use three simple entities:
-<img src="https://github.com/nishant-boro/split-it-easy-android/blob/master/db_view.png" width="800">
+<img src="https://github.com/senku36kumar/billSplitKaro/blob/master/db_view.png" width="800">
 
 Hence, if a group is deleted/updated the associated bills and members of the group are deleted/updated too. 
 Also, if a member is deleted/updated the associated bills of the member are deleted/updated too.
@@ -78,4 +56,4 @@ Calculate Transactions: Pick the largest elements from the debtors and creditors
 
 Optimisation: This algorithm produces correct results but the no of transactions is not minimum. To minimize it, we could use the subset sum algorithm which is a NP problem. The use of a NP solution could really slow down the app!
 
-
+Thank You.
